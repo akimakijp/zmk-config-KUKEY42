@@ -63,7 +63,7 @@
 &kp Q        &kp W             &kp E         &kp R           &kp T                                          &kp Y      &kp U            &kp I        &kp O              &kp P
 &kp A        &mt LEFT_SHIFT S  &mt LCTRL D   &mt LEFT_ALT F  &kp G      &kt LANGUAGE_1      &kp LANGUAGE_2  &kp H      &mt RIGHT_ALT J  &mt LCTRL K  &mt RIGHT_SHIFT L  &kp MINUS
 &kp Z        &kp X             &kp C         &kp V           &kp B      &to 3               &kp DEL         &kp N      &kp M            &kp COMMA    &kp DOT            &kp SLASH
-&kp LS(ESC)  &kp CAPSLOCK      &kp LEFT_WIN  &mo 3           &lt 1 TAB  &lt 2 SPACE         &kp BACKSPACE   &kt ENTER                                                   &to 1
+&kp LS(ESC)  &kp CAPSLOCK      &kp LEFT_WIN  &mo 3           &lt 1 TAB  &lt 2 SPACE         &kp BACKSPACE   &kp ENTER                                                   &to 1
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
