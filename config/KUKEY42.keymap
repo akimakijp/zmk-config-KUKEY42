@@ -60,10 +60,10 @@
 
         default_layer {
             bindings = <
-&lt 3 Q  &kp W             &kp E         &kp R           &kp T                                          &kp Y      &kp U            &kp I        &kp O              &lt 4 P
-&kp A    &mt LEFT_SHIFT S  &mt LCTRL D   &mt LEFT_ALT F  &kp G      &kt LANGUAGE_1      &kp LANGUAGE_2  &kp H      &mt RIGHT_ALT J  &mt LCTRL K  &mt RIGHT_SHIFT L  &kp MINUS
-&kp Z    &kp X             &kp C         &kp V           &kp B      &to 3               &kp DEL         &kp N      &kp M            &kp COMMA    &kp DOT            &kp SLASH
-&kp ESC  &kp CAPSLOCK      &kp LEFT_WIN  &mo 3           &lt 1 TAB  &lt 2 SPACE         &kp BACKSPACE   &kp ENTER                                                   &to 1
+&lt 3 Q  &kp W             &kp E         &kp R           &kp T                                          &kp Y        &kp U            &kp I        &kp O              &lt 4 P
+&kp A    &mt LEFT_SHIFT S  &mt LCTRL D   &mt LEFT_ALT F  &kp G      &kt LANGUAGE_1      &kp LANGUAGE_2  &kp H        &mt RIGHT_ALT J  &mt LCTRL K  &mt RIGHT_SHIFT L  &kp MINUS
+&kp Z    &kp X             &kp C         &kp V           &kp B      &kp LANGUAGE_2      &kp DEL         &kp N        &kp M            &kp COMMA    &kp DOT            &kp SLASH
+&kp ESC  &kp CAPSLOCK      &kp LEFT_WIN  &to 3           &lt 1 TAB  &lt 2 SPACE         &kp BACKSPACE   &lt 3 ENTER                                                   &to 1
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&to 0   &kp N7                   &kp N8        &kp N9                 &kp SLASH                                         &kp KP_SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&to 3   &mt LEFT_SHIFT NUMBER_4  &mt LCTRL N5  &mt LEFT_ALT NUMBER_6  &kp ASTERISK  &kp LANGUAGE_1      &kp LANGUAGE_2  &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&kp N0  &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3           &kp DOT       &to 0               &kp DELETE      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
-&trans  &trans                   &trans        &trans                 &trans        &trans              &trans          &trans                                                              &kp KP_NUMLOCK
+&none   &kp N7                   &kp N8        &kp N9                 &kp SLASH                                         &kp KP_SLASH     &kp KP_NUMBER_7            &kp KP_NUMBER_8        &kp KP_NUMBER_9              &kp KP_MINUS
+&none   &mt LEFT_SHIFT NUMBER_4  &mt LCTRL N5  &mt LEFT_ALT NUMBER_6  &kp ASTERISK  &kp LANGUAGE_1      &kp LANGUAGE_2  &kp KP_ASTERISK  &mt RIGHT_ALT KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp KP_PLUS
+&kp N0  &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3           &kp DOT       &kp LANGUAGE_2      &kp DELETE      &kp KP_NUMBER_0  &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &kp KP_EQUAL
+&trans  &trans                   &trans        &to 0                  &trans        &trans              &trans          &trans                                                                                          &kp KP_NUMLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
