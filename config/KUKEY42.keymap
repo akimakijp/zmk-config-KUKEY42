@@ -71,19 +71,19 @@
 
         MOUSE {
             bindings = <
-&none   &kp F9             &kp F10       &kp F11          &kp F12                                        &kp PAGE_UP     &msc SCRL_UP  &mkp MCLK  &msc SCRL_DOWN  &kp HOME
-&none   &mt LEFT_SHIFT F5  &mt RCTRL F6  &mt LEFT_ALT F7  &kp F8   &kp LANGUAGE_1      &mkp MB5          &kp PAGE_DOWN   &mkp LCLK     &kp UP     &mkp RCLK       &kp END
-&none   &kp F1             &kp F2        &kp F3           &kp F4   &kp LANGUAGE_2      &mkp MB4          &msc SCRL_LEFT  &kp LEFT      &kp DOWN   &kp RIGHT       &msc SCRL_RIGHT
-&trans  &trans             &trans        &trans           &trans   &trans              &kp LS(CAPSLOCK)  &trans                                                   &to 0
+&none   &kp F9             &kp F10       &kp F11          &kp F12                                  &kp PAGE_UP     &msc SCRL_UP  &mkp MCLK  &msc SCRL_DOWN  &kp HOME
+&none   &mt LEFT_SHIFT F5  &mt RCTRL F6  &mt LEFT_ALT F7  &kp F8   &kp LANGUAGE_1      &mkp MB5    &kp PAGE_DOWN   &mkp LCLK     &kp UP     &mkp RCLK       &kp END
+&none   &kp F1             &kp F2        &kp F3           &kp F4   &kp LANGUAGE_2      &mkp MB4    &msc SCRL_LEFT  &kp LEFT      &kp DOWN   &kp RIGHT       &msc SCRL_RIGHT
+&trans  &trans             &trans        &trans           &trans   &trans              &kp DELETE  &trans                                                   &to 0
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT                                     &kp CARET          &kp AMPERSAND        &kp ASTERISK     &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS
-&none            &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &none        &kp LANGUAGE_1      &kp SEMICOLON  &kp COLON          &mt RIGHT_ALT EQUAL  &mt RCTRL SLASH  &mt RIGHT_SHIFT LEFT_BRACKET  &kp RIGHT_BRACKET
-&none            &none           &none      &none         &none        &kp LANGUAGE_2      &kp SQT        &kp DOUBLE_QUOTES  &kp PLUS             &kp QUESTION     &kp PIPE                      &kp BSLH
-&trans           &trans          &trans     &trans        &trans       &trans              &kp DEL        &trans                                                                                 &kp ESCAPE
+&kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT                                        &kp CARET          &kp AMPERSAND        &kp ASTERISK     &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS
+&none            &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &none        &kp LANGUAGE_1      &kp SEMICOLON     &kp COLON          &mt RIGHT_ALT EQUAL  &mt RCTRL SLASH  &mt RIGHT_SHIFT LEFT_BRACKET  &kp RIGHT_BRACKET
+&none            &none           &none      &none         &none        &kp LANGUAGE_2      &kp SQT           &kp DOUBLE_QUOTES  &kp PLUS             &kp QUESTION     &kp PIPE                      &kp BSLH
+&trans           &trans          &trans     &trans        &trans       &trans              &kp LS(CAPSLOCK)  &trans                                                                                 &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
