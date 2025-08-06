@@ -76,6 +76,8 @@
 &none   &kp F1             &kp F2        &kp F3           &kp F4   &kp LANGUAGE_2      &mkp MB4    &msc SCRL_LEFT  &kp LEFT      &kp DOWN   &kp RIGHT       &msc SCRL_RIGHT
 &trans  &trans             &trans        &trans           &trans   &trans              &kp DELETE  &trans                                                   &to 0
             >;
+
+            sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
         };
 
         SYMBOL {
@@ -86,7 +88,7 @@
 &trans           &trans          &trans     &trans        &trans       &trans              &kp LS(CAPSLOCK)  &trans                                                                                 &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
         };
 
         NUM {
@@ -97,7 +99,7 @@
 &trans  &trans                   &trans        &to 0                  &trans        &trans              &trans          &trans                                                                                          &kp KP_NUMLOCK
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
         };
 
         BT {
@@ -107,6 +109,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &bt BT_PRV  &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans                                                  &bt BT_CLR
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
