@@ -71,10 +71,10 @@
 
         MOUSE {
             bindings = <
-&none   &kp F9             &kp F10       &kp F11          &kp F12                                  &kp PAGE_UP     &msc MOVE_Y(5)  &mkp MCLK  &msc MOVE_Y(-5)  &kp HOME
-&none   &mt LEFT_SHIFT F5  &mt RCTRL F6  &mt LEFT_ALT F7  &kp F8   &kp LANGUAGE_1      &mkp MB5    &kp PAGE_DOWN   &mkp LCLK       &kp UP     &mkp RCLK        &kp END
-&none   &kp F1             &kp F2        &kp F3           &kp F4   &kp LANGUAGE_2      &mkp MB4    &msc SCRL_LEFT  &kp LEFT        &kp DOWN   &kp RIGHT        &msc SCRL_RIGHT
-&trans  &trans             &trans        &trans           &trans   &trans              &kp DELETE  &trans                                                      &to 0
+&none   &kp F9             &kp F10       &kp F11          &kp F12                                  &kp PAGE_UP     &msc MOVE_Y(10)  &mkp MCLK  &msc MOVE_Y(-10)  &kp HOME
+&none   &mt LEFT_SHIFT F5  &mt RCTRL F6  &mt LEFT_ALT F7  &kp F8   &kp LANGUAGE_1      &mkp MB5    &kp PAGE_DOWN   &mkp LCLK        &kp UP     &mkp RCLK         &kp END
+&none   &kp F1             &kp F2        &kp F3           &kp F4   &kp LANGUAGE_2      &mkp MB4    &msc SCRL_LEFT  &kp LEFT         &kp DOWN   &kp RIGHT         &msc SCRL_RIGHT
+&trans  &trans             &trans        &trans           &trans   &trans              &kp DELETE  &trans                                                        &to 0
             >;
 
             sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
